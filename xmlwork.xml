@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tab.xslt"?>
+
+<contactus>
+<details>
+<id>1</id>
+<name>Breezem Fernandes</name>
+<emailaddress>breezemfernandes@gmail.com</emailaddress>
+<skills>Webdesigning and Webmanagement</skills>
+</details>
+<details>
+<id>2</id>
+<name>Pratik Dias</name>
+<emailaddress>pratikdias@gmail.com</emailaddress>
+<skills>Database and Python managment</skills>
+</details>
+<details>
+<id>3</id>
+<name>Shreya Patil</name>
+<emailaddress>shreyapatil@gmail.com</emailaddress>
+<skills>Database and Python managment</skills>
+</details>
+</contactus>

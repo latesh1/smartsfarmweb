@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<script type="text/javascript">
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+function closed()
+{
+alert("Registration Closed");
+}
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+</script>
+<style>
+.foot{
+    max-width: 1200px;
+    margin: auto;
+    color: #fff;
+	padding-bottom: 0px;
+}
+
+.foot_left{
+    max-width: 1200px;
+    margin: 0 0 0;
+    float: left;
+}
+
+.socialmedia{
+    display: inline-block;
+    margin: 0 20px 0;
+}
+body {
+  font-family: Arial;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    padding: 20px; 
+    width: 80%;
+    height:60%;	
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left:0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: BLACK;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+ 
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+
+</style>
+<body>
+
+<image class="log" src="logo.png"></image>
+<div class="wapper">
+<nav id="mainav" class="fl_right">
+<ul class="clear">
+<li class="active"><a href="smartfarm.html">Home</a></li>
+<li class="active"><a href="gallery.html">Gallery</a></li>
+<li class="active"><a href="services.html">Services</a></li>
+<ul>
+<li><a href="products.html">Products</a></li>
+<li><a href="schedule.html">EVENTS</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About</a></li>
+<li><a class="active" href="registration.html">Registration</a></li>
+</ul>
+</nav>
+</header>
+</div>
+<center>
+
+<br/><br/><br/><br/><br/>
+<div class="container">
+  <div class="mySlides">
+   
+    <img src="12.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+   
+    <img src="21.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+   
+    <img src="26.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+ 
+    <img src="31.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    
+    <img src="32.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+
+    <img src="34.jpg" style="width:100%">
+  </div>
+ 
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+</center>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="12.jpg" style="width:100%" onclick="currentSlide(1)" alt="'SMART FARMING OUTCOMES'">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="21.jpg" style="width:100%" onclick="currentSlide(2)" alt="'PLANTATION'">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="26.jpg" style="width:100%" onclick="currentSlide(3)" alt="'TEACHINGS''">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="31.jpg" style="width:100%" onclick="currentSlide(4)" alt="'SITE TOURS'">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="32.jpg" style="width:100%" onclick="currentSlide(5)" alt="'CAMPING SITES'">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="34.jpg" style="width:100%" onclick="currentSlide(6)" alt="'DIVERSITY'">
+    </div>
+	
+  </div>
+
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+    
+</body>
+</html>

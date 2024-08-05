@@ -1,0 +1,111 @@
+<html>
+<head>
+<style>
+body{
+	font-family:verdana;
+	word-spacing:1em;
+	opacity:0.9;
+}
+.headder{
+	width:100%;
+	height:80px;
+	text-align:center;
+	color:black;
+	background-color: orange;
+	font-weight:bold;
+	font-size:40px;
+	
+	
+}
+h1{
+text-align:left;
+color:WHITE;
+font-size:22px;
+}
+#cont1{
+	background-color:grey;
+	margin-top:5px;
+	color:black;
+	font-size:18px;
+	padding:5px;
+	border-radius: 10px;
+}
+img{
+margin-left:5px;
+}
+
+#cont2{
+	background-color:grey;
+	margin-top:5px;
+	color:black;
+	padding:5px;
+	border-radius: 10px;
+	}
+#cont3{
+	background-color:grey;
+	margin-top:5px;
+	color:black;
+	font-size:18px;	
+	padding:5px;
+	border-radius: 10px;
+}
+footer{
+		background-color:grey;
+		font-size:18px;
+		margin-top:5px;
+		border-radius: 10px;
+		width:100%;
+		height:30px;
+		text-align:center;
+		padding-top:15px;
+	}
+
+}
+
+</style>
+</head>
+<body>
+	<div class="headder">
+	
+		<p>Smart Farming Blog</p>
+
+	</div>
+	<div id="cont1">
+			<h1>Organic Farming</h1>
+			
+			<p><img src="organicfarming.jpeg" width="100" height="100" align="left" />ORGANIC FARMING is an alternative agricultural system which originated early in the 20th century in reaction to rapidly changing farming practices. Organic farming continues to be developed by various organic agriculture organizations today. It relies on fertilizers of organic origin such as compost manure, green manure, and bone meal and places emphasis on techniques such as crop rotation and companion planting
+		<br><br><video width="560" height="320" controls >
+		<source src="sp1.mp4" type="video/mp4">
+		</video></p>
+		
+	</div>
+	<div id="cont2">
+			<h1>Farming Events</h1>
+			
+			<p><img src="cont2img.jpeg" width="100" height="100" align="left" />The most informative and in-depth farming shows and events calendar on the web. Country and agricultural shows and events from all over the UK.<br>
+19 Oct - 21 Oct	All Breeds All Britain Calf ...	Cambridgeshire, Location ...<br>
+19 Oct - 21 Oct	BBC Good Food Show ...	Glasgow, Location: Glasgow ...<br>
+19 Oct - 21 Oct	Dartmouth Food Festival	Devon, Location: Royal ...
+
+		<br><br><video width="560" height="320" controls >
+		<source src="sp1.mp4" type="video/mp4">
+		</video></p>
+		
+	</div>
+	<div id="cont3">
+			<h1>Economic Development Of Farming</h1>
+			
+			<p><img src="cont3img.jpeg" width="100" height="100" align="left" /> Agricultural sector plays a strategic role in the process of economic development of a country.<br>
+It has already made a significant contribution to the economic prosperity of advanced countries and its role in the economic development of less developed countries is of vital importance.
+
+		<br><br><br><video width="560" height="320" controls >
+		<source src="sp1.mp4" type="video/mp4">
+		</video></p>
+		
+	</div>
+	<footer>
+	<b>& copy: 2018 SMART FARMING</b>
+	</footer>
+	
+</body>
+</html>
